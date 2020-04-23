@@ -21,11 +21,9 @@ To build a docker image issue the following command:
 docker build -t recruiting-ui .
 
 ## Cypress Tests
-In order to run the cypress tests, you'll need to install Cypress 
+In order to run the cypress tests, you'll need to install Cypress _npm i cypress_
 
-npm i cypress
-
-Then, use the command npx cypress open and click on e2e_tests.ts
+Then, use the command _npx cypress open_ and click on e2e_tests.ts
 
 ## References
 
