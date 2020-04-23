@@ -20,6 +20,13 @@ To start the server issue an npm start command.
 To build a docker image issue the following command:
 docker build -t recruiting-ui .
 
+## Cypress Tests
+In order to run the cypress tests, you'll need to install Cypress 
+
+npm i cypress
+
+Then, use the command npx cypress open and click on e2e_tests.ts
+
 ## References
 
 This app was generated with create react app. 
